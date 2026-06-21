@@ -1,0 +1,13 @@
+{
+  "team_id": "YOUR_ASSIGNED_DEVPOST_ID",
+  "project_name": "NDLEA Secure Operational Assistant",
+  "problem_domain": "Autonomous AI Agents",
+  "runtime": {
+    "engine": "llama.cpp",
+    "model_path": "model/phi-3-mini-4k-instruct-q4.gguf"
+  },
+  "test_prompts": [
+    "Summarize the explicit statutory penalties and prison sentence bounds for the trafficking or unlawful possession of Class A controlled substances under Section 11 of the provided NDLEA framework.",
+    "Based strictly on the uploaded operational documentation, what are the mandatory legal requirements and safety protocols an officer must adhere to when executing an offline search warrant at a suspected manufacturing site."
+  ]
+}
