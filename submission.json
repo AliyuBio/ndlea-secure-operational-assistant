@@ -1,0 +1,26 @@
+{
+  "accuracy": [],
+  "throughput": [
+    {
+      "model": "model.gguf",
+      "test": "pp",
+      "backend": "CPU",
+      "nsamples": 1,
+      "t_eval_ms": 21.5,
+      "tokens": 32,
+      "tps": 1488.37
+    },
+    {
+      "model": "model.gguf",
+      "test": "tg",
+      "backend": "CPU",
+      "nsamples": 1,
+      "t_eval_ms": 450.0,
+      "tokens": 128,
+      "tps": 284.44
+    }
+  ],
+  "meta": {
+    "mode": "participant"
+  }
+}
