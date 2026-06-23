@@ -1,13 +1,21 @@
 {
   "team_id": "YOUR_ASSIGNED_DEVPOST_ID",
-  "project_name": "NDLEA Secure Operational Assistant",
-  "problem_domain": "Autonomous AI Agents",
-  "runtime": {
-    "engine": "llama.cpp",
-    "model_path": "model/phi-3-mini-4k-instruct-q4.gguf"
+  "domain": "autonomous_ai_agents",
+  "language_scope": ["en"],
+  "african_alpha_claim": false,
+  "budget_laptop_claim": true,
+  "submitter": {
+    "name": "Mohammed Aliyu Bio",
+    "email": "your-email@domain.com",
+    "github_handle": "AliyuBio"
+  },
+  "cross_disciplinary_pairing": {
+    "discipline": "law_enforcement",
+    "load_bearing": true,
+    "description": "Integrates the statutory frameworks and operational search criteria of the National Drug Law Enforcement Agency (NDLEA) directly into a disconnected edge deployment context."
   },
   "test_prompts": [
-    "Summarize the explicit statutory penalties and prison sentence bounds for the trafficking or unlawful possession of Class A controlled substances under Section 11 of the provided NDLEA framework.",
-    "Based strictly on the uploaded operational documentation, what are the mandatory legal requirements and safety protocols an officer must adhere to when executing an offline search warrant at a suspected manufacturing site."
+    "Summarize the explicit statutory penalties and imprisonment parameters for the importation, manufacture, or unlawful possession of cocaine, LSD, or heroin as strictly codified under Sections 11 and 19 of the National Drug Law Enforcement Agency Act.",
+    "Based strictly on Section 41 of the National Drug Law Enforcement Agency Act, what specific statutory powers and constraints govern an authorized officer executing a search, seizure, or arrest without a warrant on suspected buildings or carriers?"
   ]
 }
